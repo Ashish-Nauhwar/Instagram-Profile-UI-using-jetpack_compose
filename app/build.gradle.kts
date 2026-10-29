@@ -34,7 +34,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.10"
+        kotlinCompilerExtensionVersion = "1.5.11"
     }
 }
 
@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.material)
     
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
